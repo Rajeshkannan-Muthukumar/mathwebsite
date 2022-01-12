@@ -174,7 +174,7 @@ h1{
 
 
 ## OUTPUT:
-![output](OP.JPG)
+![OP](https://user-images.githubusercontent.com/93901857/149091878-b77dd6ce-768d-4f09-8fd0-3e19c6af65a4.jpg)
 
 ## Result:
 
