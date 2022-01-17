@@ -166,6 +166,58 @@ h1{
             });
       
         </script> 
+        <script type="text/javascript">
+  var button;
+  button = document.querySelector("#calbutton1");
+  button.addEventListener("click", function () {
+    var atext, btext, ctext;
+    var aval, bval, cval;
+    atext = document.querySelector("#aedit");
+    btext = document.querySelector("#bedit");
+    ctext = document.querySelector("#cedit");
+
+    if(Number(atext.value)&&Number(btext.value))
+    {
+      aval=parseInt(atext.value);
+      bval=parseInt(btext.value);
+    }
+    else{
+      window.alert("enter only number");
+    }
+
+
+    
+
+    cval = 3.14 * aval * aval * bval;
+    ctext.value = "" + cval;
+  });
+</script>
+<script type="text/javascript">
+  var button;
+  button = document.querySelector("#calbutton2");
+  button.addEventListener("click", function () {
+
+   var lengthtext,breadthtext,areatext;
+   var aval,bval,cval;
+    lengthtext=document.querySelector("#lengthedit");
+    breadthtext=document.querySelector("#breadthedit")
+    areatext=document.querySelector("#areaedit");
+      
+    if(Number(lengthtext.value)&&Number(breadthtext.value))
+    {
+      aval=parseInt(lemgthtext.value);
+      bval=parseInt(breadthtext.value);
+    }
+    else{
+      window.alert("enter only number");
+    }
+    
+    cval=aval*bval
+    areatext.value=cval;
+  });
+
+</script>
+</div>
   
 </body>
 </html>
@@ -175,6 +227,9 @@ h1{
 
 ## OUTPUT:
 ![OP](https://user-images.githubusercontent.com/93901857/149091878-b77dd6ce-768d-4f09-8fd0-3e19c6af65a4.jpg)
+# ERROR
+![ERROR 1](https://user-images.githubusercontent.com/93901857/149792114-4a549cab-c897-4296-82a8-a5bddbaa02f6.jpg)
+![ERROR 2](https://user-images.githubusercontent.com/93901857/149792124-e2889d6e-aedd-4430-9da1-c9c6067d7539.jpg)
 
 ## Result:
 
